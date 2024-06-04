@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles3.css">
+    <title>Test Result</title>
+</head>
+<body>
+    <h1>Art Personality Test Result</h1>
+    <div class="circle-image-container">
+        <img src="image7.jpg" alt="Openness Image">
+    </div>
+    <h2>Openness</h2>
+    <p id="openness"></p>
+    <div class="circle-image-container">
+        <img src="image1.jpg" alt="Openness Image">
+    </div>
+    <h2>Conscientiousness</h2>
+    <p id="conscientiousness"></p>
+    <div class="circle-image-container">
+        <img src="image2.jpg" alt="Openness Image">
+    </div>
+    <h2>Extraversion</h2>
+    <p id="extraversion"></p>
+    <div class="circle-image-container">
+        <img src="image5.jpg" alt="Openness Image">
+    </div>
+    <h2>Agreeableness</h2>
+    <p id="agreeableness"></p>
+    <div class="circle-image-container">
+        <img src="image4.jpg" alt="Openness Image">
+    </div>
+    <h2>Neuroticism</h2>
+    <p id="neuroticism"></p>
+
+    <script src="script.js"></script>
+    <script>
+        interpretResult('openness', 
+            "You are an open-minded, imaginative, creative and insightful person.", 
+            "You are a less open and more conventional and traditional person.");
+        interpretResult('conscientiousness',
+            "You are a hardworking, organized, and reliable person.",
+            "You are a less conscientious and more spontaneous and flexible person.");
+        interpretResult('extraversion',
+            "You are an outgoing, energetic, and sociable person.",
+            "You are a less extraverted and more reserved and solitary person.");
+        interpretResult('agreeableness',
+            "You are a kind, compassionate, and cooperative person.",
+            "You are a less agreeable and more competitive and detached person.");
+        interpretResult('neuroticism',
+            "You are a sensitive, emotional, and anxious person.",
+            "You are a less neurotic and more calm and stable person.");
+    </script>
+</body>
+</html>
