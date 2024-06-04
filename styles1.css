@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 200px;
+    margin-left: 40px;
+}
+
+p {
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.btn {
+    font-weight: normal;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-left: 40px;
+}
+
+.monalisa {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+}
