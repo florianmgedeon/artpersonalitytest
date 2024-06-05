@@ -73,7 +73,8 @@ function changeImage() {
 }
 
 function interpretResult(id, positiveMessage, negativeMessage) {
-    var value = localStorage.getItem(id);
+    var capitalizedId = id.charAt(0).toUpperCase() + id.slice(1);
+    var value = parseInt(localStorage.getItem(capitalizedId), 10);
     var message = value > 0 ? positiveMessage : negativeMessage;
-    document.getElementById(id).innerText = message;
+    document.getElementById(id).innerText = capitalizedId + ": " + message;
 }
