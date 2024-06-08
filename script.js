@@ -60,7 +60,7 @@ document.getElementById('thumbs-down').addEventListener('click', function() {
 
 function changeImage() {
     currentImageIndex++;
-    if (currentImageIndex > 10) {
+    if (currentImageIndex > 30) {
         localStorage.setItem('Openness', Openness);
         localStorage.setItem('Conscientiousness', Conscientiousness);
         localStorage.setItem('Extraversion', Extraversion);
