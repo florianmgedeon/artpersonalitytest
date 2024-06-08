@@ -6,48 +6,48 @@ let Agreeableness = 0;
 let Neuroticism = 0;
 
 document.getElementById('thumbs-up').addEventListener('click', function() {
-    if (currentImageIndex === 1) {
+    if (currentImageIndex === 1 || currentImageIndex === 11 || currentImageIndex === 12) {
         Openness--;
         Conscientiousness++;
         Agreeableness++;
     } 
-    else if (currentImageIndex === 2) {
+    else if (currentImageIndex === 2 || currentImageIndex === 13 || currentImageIndex === 14) {
         Openness++;
         Conscientiousness--;
         Extraversion++;
         Agreeableness--;
         Neuroticism++;
     }
-    else if (currentImageIndex === 3) {
+    else if (currentImageIndex === 3 || currentImageIndex == 15 || currentImageIndex == 16) {
         Extraversion++;
     }
-    else if (currentImageIndex === 4) {
+    else if (currentImageIndex === 4 || currentImageIndex === 17 || currentImageIndex === 18) {
         Openness++;
         Conscientiousness--;
         Extraversion++;
         Agreeableness--;
         Neuroticism++;
     }
-    else if (currentImageIndex === 5) {
+    else if (currentImageIndex === 5 || currentImageIndex === 19 || currentImageIndex === 20) {
         Neuroticism++;
     }
-    else if (currentImageIndex === 6) {
+    else if (currentImageIndex === 6 || currentImageIndex === 21 || currentImageIndex === 22) {
         Openness--;
         Conscientiousness++;
     }
-    else if (currentImageIndex === 7) {
+    else if (currentImageIndex === 7 || currentImageIndex === 23 || currentImageIndex === 24) {
         Openness--;
         Conscientiousness++;
     }
-    else if (currentImageIndex === 8) {
+    else if (currentImageIndex === 8 || currentImageIndex === 25 || currentImageIndex === 26) {
         Openness++;
         Conscientiousness--;
     }
-    else if (currentImageIndex === 9) {
+    else if (currentImageIndex === 9 || currentImageIndex === 27 || currentImageIndex === 28) {
         Openness++;
         Conscientiousness--;
     }
-    else if (currentImageIndex === 10) {
+    else if (currentImageIndex === 10 || currentImageIndex === 29 || currentImageIndex === 30) {
         Openness++;
         Conscientiousness--;
     }
