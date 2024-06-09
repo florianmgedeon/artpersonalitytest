@@ -6,4 +6,4 @@ The test result is calculated based on the following [research findings](https:/
 **Please note that the results of the 60-second art personality test are for entertainment purposes only.**
 They do not constitute professional advice or assessment. If anyone finds the results objectionable or inaccurate, kindly disregard them and seek professional guidance if needed.
 
-Try the test [here](https://florianmgedeon.github.io/artpersonalitytest/) anonymously for free and without a login.
+Take the test [here](https://florianmgedeon.github.io/artpersonalitytest/) anonymously, free of charge, and without needing to log in.
